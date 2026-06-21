@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <!-- Block all cleartext (HTTP) traffic -->
+    <base-config cleartextTrafficPermitted="false">
+        <trust-anchors>
+            <certificates src="system" />
+        </trust-anchors>
+    </base-config>
+
+    <!-- Certificate pinning for API server -->
+    <domain-config>
+        <domain includeSubdomains="true">api.92lrcorps.xyz</domain>
+        <pin-set expiration="2027-01-01">
+            <!-- Primary pin (replace with actual pin from `openssl s_client` output) -->
+            <pin digest="SHA-256">YLh1dUR9y6Kja30RrAn7JKnbQG/uEtLMkBgFF2Fuihg=</pin>
+            <!-- Backup pin (different CA) -->
+            <pin digest="SHA-256">sRHdihwgkaib1P1gN7akL0kFMG0d1E1MI7CN5BawVQ0=</pin>
+        </pin-set>
+        <trust-anchors>
+            <certificates src="system" />
+        </trust-anchors>
+    </domain-config>
+
+    <!-- Certificate pinning for LiveKit -->
+    <domain-config>
+        <domain includeSubdomains="true">livekit.92lrcorps.xyz</domain>
+        <pin-set expiration="2027-01-01">
+            <pin digest="SHA-256">YLh1dUR9y6Kja30RrAn7JKnbQG/uEtLMkBgFF2Fuihg=</pin>
+            <pin digest="SHA-256">sRHdihwgkaib1P1gN7akL0kFMG0d1E1MI7CN5BawVQ0=</pin>
+        </pin-set>
+        <trust-anchors>
+            <certificates src="system" />
+        </trust-anchors>
+    </domain-config>
+</network-security-config>

@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">NexChat</string>
+
+    <!-- Navigation -->
+    <string name="nav_chats">Chats</string>
+    <string name="nav_calls">Calls</string>
+    <string name="nav_status">Status</string>
+    <string name="nav_explore">Explore</string>
+    <string name="nav_friends">Friends</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- Auth -->
+    <string name="auth_welcome_back">Welcome back</string>
+    <string name="auth_sign_in_continue">Sign in to continue</string>
+    <string name="auth_email">Email</string>
+    <string name="auth_password">Password</string>
+    <string name="auth_forgot_password">Forgot password?</string>
+    <string name="auth_sign_in">Sign In</string>
+    <string name="auth_sign_in_otp">Sign in with OTP</string>
+    <string name="auth_no_account">Don\'t have an account?</string>
+    <string name="auth_sign_up">Sign Up</string>
+    <string name="auth_create_account">Create account</string>
+    <string name="auth_display_name">Display Name</string>
+    <string name="auth_username_optional">Username (optional)</string>
+    <string name="auth_create_account_button">Create Account</string>
+    <string name="auth_has_account">Already have an account?</string>
+    <string name="auth_verify_otp">Verify OTP</string>
+    <string name="auth_otp_description">Enter the code sent to your email</string>
+    <string name="auth_verification_code">Verification Code</string>
+    <string name="auth_verify">Verify</string>
+    <string name="auth_reset_password">Reset Password</string>
+    <string name="auth_reset_description">Enter your email to receive a reset link</string>
+    <string name="auth_send_reset">Send Reset Link</string>
+    <string name="auth_back_sign_in">Back to Sign In</string>
+    <string name="auth_toggle_password">Toggle password visibility</string>
+
+    <!-- Chat -->
+    <string name="chat_messages">Messages</string>
+    <string name="chat_new_chat">New Chat</string>
+    <string name="chat_search">Search</string>
+    <string name="chat_select_conversation">Select a conversation</string>
+    <string name="chat_choose_sidebar">Choose from the sidebar or start a new chat</string>
+    <string name="chat_type_message">Type a message</string>
+    <string name="chat_send_message">Send message</string>
+    <string name="chat_record_voice">Record voice message</string>
+    <string name="chat_attach_file">Attach file</string>
+    <string name="chat_insert_emoji">Insert emoji</string>
+    <string name="chat_reply_to">Replying to message</string>
+    <string name="chat_edit_message">Editing message</string>
+    <string name="chat_cancel">Cancel</string>
+
+    <!-- Connection Status -->
+    <string name="status_connecting">Connecting…</string>
+    <string name="status_reconnecting">Reconnecting…</string>
+    <string name="status_offline">No internet connection</string>
+    <string name="status_connected">Connected</string>
+
+    <!-- Calls -->
+    <string name="calls_title">Calls</string>
+    <string name="calls_no_calls">No calls yet</string>
+    <string name="calls_incoming">Incoming %1$s Call</string>
+    <string name="calls_active">Active %1$s Call</string>
+    <string name="calls_accept">Accept</string>
+    <string name="calls_decline">Decline</string>
+
+    <!-- Status / Stories -->
+    <string name="status_title">Status</string>
+    <string name="status_no_stories">No stories yet</string>
+
+    <!-- Explore -->
+    <string name="explore_title">Explore</string>
+    <string name="explore_discover">Discover communities</string>
+
+    <!-- Friends -->
+    <string name="friends_title">Friends</string>
+    <string name="friends_add_start">Add friends to get started</string>
+
+    <!-- Community -->
+    <string name="community_title">Community</string>
+    <string name="community_coming_soon">Community details coming soon</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_account">Account</string>
+    <string name="settings_account_desc">Email, phone, username</string>
+    <string name="settings_privacy">Privacy</string>
+    <string name="settings_privacy_desc">Blocked users, last seen</string>
+    <string name="settings_notifications">Notifications</string>
+    <string name="settings_notifications_desc">Message &amp; call alerts</string>
+    <string name="settings_appearance">Appearance</string>
+    <string name="settings_appearance_desc">Theme, chat wallpaper</string>
+    <string name="settings_data_storage">Data &amp; Storage</string>
+    <string name="settings_data_storage_desc">Network usage, downloads</string>
+    <string name="settings_security">Security</string>
+    <string name="settings_security_desc">Two-factor, app lock</string>
+    <string name="settings_about">About</string>
+    <string name="settings_about_desc">Version, terms, privacy</string>
+    <string name="settings_sign_out">Sign Out</string>
+
+    <!-- Join Group -->
+    <string name="join_title">Join Group</string>
+    <string name="join_invited">You\'ve been invited to join a group</string>
+    <string name="join_tap_below">Tap below to join the conversation</string>
+    <string name="join_button">Join Group</string>
+    <string name="join_members">%1$d members</string>
+    <string name="join_failed_load">Failed to load invite details</string>
+    <string name="join_failed">Failed to join group</string>
+
+    <!-- App Lock -->
+    <string name="lock_title">NexChat is locked</string>
+    <string name="lock_subtitle">Enter your PIN to continue</string>
+    <string name="lock_setup_pin">Set your PIN</string>
+    <string name="lock_confirm_pin">Confirm your PIN</string>
+    <string name="lock_enter_pin">Enter a 4-8 digit PIN</string>
+    <string name="lock_reenter_pin">Re-enter your PIN</string>
+    <string name="lock_biometric">Unlock with biometric</string>
+    <string name="lock_setup_link">Set up PIN lock</string>
+    <string name="lock_delete">Delete</string>
+    <string name="lock_digit_entered">PIN digit entered</string>
+    <string name="lock_digit_empty">PIN digit empty</string>
+    <string name="lock_screen_desc">App lock screen</string>
+
+    <!-- Accessibility -->
+    <string name="a11y_search">Search</string>
+    <string name="a11y_new_chat">Start a new chat</string>
+    <string name="a11y_add_friend">Add friend</string>
+    <string name="a11y_settings">Settings</string>
+    <string name="a11y_logout">Log out</string>
+    <string name="a11y_back">Go back</string>
+    <string name="a11y_close">Close</string>
+    <string name="a11y_send">Send</string>
+    <string name="a11y_record">Record voice message</string>
+    <string name="a11y_attach">Attach file</string>
+    <string name="a11y_emoji">Insert emoji</string>
+    <string name="a11y_reply">Reply to message</string>
+    <string name="a11y_forward">Forward message</string>
+    <string name="a11y_copy">Copy message</string>
+    <string name="a11y_delete">Delete message</string>
+    <string name="a11y_pin">Pin message</string>
+    <string name="a11y_star">Star message</string>
+    <string name="a11y_edit">Edit message</string>
+    <string name="a11y_react">Add reaction</string>
+    <string name="a11y_read_by">Read by</string>
+    <string name="a11y_online">Online</string>
+    <string name="a11y_offline">Offline</string>
+    <string name="a11y_unread_messages">%1$d unread messages</string>
+    <string name="a11y_loading">Loading</string>
+    <string name="a11y_pinned">Pinned</string>
+    <string name="a11y_muted">Muted</string>
+    <string name="a11y_number">Number %1$s</string>
+
+    <!-- Share Sheet -->
+    <string name="share_title">Share to NexChat</string>
+    <string name="share_search_conversations">Search conversations…</string>
+    <string name="share_send">Send</string>
+    <string name="share_send_to">Send to %1$d</string>
+    <string name="share_one_mode">One</string>
+    <string name="share_many_mode">Many</string>
+    <string name="share_single_desc">Share to single conversation</string>
+    <string name="share_multiple_desc">Share to multiple conversations</string>
+    <string name="share_selected">Selected</string>
+    <string name="share_not_selected">Not selected</string>
+    <string name="share_group_label">Group</string>
+</resources>

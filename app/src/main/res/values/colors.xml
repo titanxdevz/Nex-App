@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="chat_bg">#FF0B0B0E</color>
+    <color name="sidebar_bg">#FF131316</color>
+    <color name="surface">#FF1A1A1E</color>
+    <color name="surface_2">#FF222228</color>
+    <color name="accent">#FF8B5CF6</color>
+    <color name="accent_dark">#FF7C3AED</color>
+    <color name="primary_text">#FFEDEDF0</color>
+    <color name="secondary_text">#FF9A9AA3</color>
+    <color name="online_green">#FF10B981</color>
+    <color name="sent_bubble">#FF2A2A31</color>
+    <color name="received_bubble">#FF1B1B1F</color>
+    <color name="splash_bg">#FF0B0B0E</color>
+</resources>
