@@ -4,6 +4,7 @@ plugins {
     id("org.jetbrains.kotlin.plugin.serialization")
     id("com.google.devtools.ksp")
     id("com.google.dagger.hilt.android")
+    id("org.jetbrains.kotlin.plugin.compose")
 }
 
 android {
@@ -61,14 +62,16 @@ android {
         targetCompatibility = JavaVersion.VERSION_17
     }
 
-    kotlinOptions { jvmTarget = "17" }
+    kotlin {
+        compilerOptions {
+            jvmTarget.set(org.jetbrains.kotlin.gradle.dsl.JvmTarget.JVM_17)
+        }
+    }
 
     buildFeatures {
         compose = true
         buildConfig = true
     }
-
-    composeOptions { kotlinCompilerExtensionVersion = "1.5.14" }
 
     packaging { resources { excludes += "/META-INF/{AL2.0,LGPL2.1}" } }
 
